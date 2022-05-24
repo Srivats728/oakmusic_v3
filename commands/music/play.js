@@ -39,11 +39,7 @@ if (res.loadType === 'PLAYLIST_LOADED') {
       if (!player.playing && !player.paused && !player.queue.size)
       player.play();
 }
-  let embed1 = new MessageEmbed()
-  .setColor("#ff0400")
-  .addField('ADDED PLAYLIST', `[\`${res.playlist.name}\`](https://discord.gg/BnWD58YubK)`, true)
-  .setFooter({ text: 'Micium-Development - https://micium-development.ovh/', iconURL: '' });
-  message.channel.send({embeds: [embed1]}).catch(err => console.log(err))
+
 } else {
   player.queue.add(res.tracks[0]);
   if (!player.playing && !player.paused && !player.queue.size)
@@ -51,7 +47,7 @@ if (res.loadType === 'PLAYLIST_LOADED') {
   let embed2 = new MessageEmbed()
   .setColor("#ff0400")
   .addField('ADDED TO QUEUE', `[\`${res.tracks[0].title}\`](https://discord.gg/BnWD58YubK)`, true)
-  .setFooter({ text: 'Micium-Development - https://micium-development.ovh/', iconURL: '' });
+  .setFooter({ text: 'Made by qTypeless#5802', iconURL: '' });
   message.channel.send({embeds: [embed2]}).catch(err => console.log(err))
         }
     }

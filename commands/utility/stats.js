@@ -41,10 +41,10 @@ value: `\`\`\`css\nGrowtoups#8330
 Vaibhav#9662\`\`\``,
 inline: true
 })
-.setFooter({ text: 'Micium-Development - https://micium-development.ovh/', iconURL: '' });
+.setFooter({ text: 'Made by qTypeless#5802', iconURL: '' });
 let button1 = new MessageButton()
 .setStyle('LINK')
-.setLabel('Micium-hosting')
+.setLabel('Source-Code')
 .setURL("https://discord.gg/f7Ryq72ZHX")
 let button3 = new MessageButton()
 .setStyle('LINK')
