@@ -23,13 +23,13 @@ process.on("unhandledRejection", (reason, promise) => {
       console.error(reason);
     }
 });
-const clientID = "51d3e07f5a7e46fbbcef856864a2d28e";
-const clientSecret = "6bfec3d12944414bbb87ddc8102af5c8";
+const clientID = "clientid";
+const clientSecret = "clientsecret";
 const nodes = [
   {
-    host: "lavalink.oops.wtf",
-    password: "www.freelavalink.ga",
-    port: 2000
+    host: "Your lavalink ip",
+    password: "your lavalink password",
+    port: lavalink port
   
   }
 ]
