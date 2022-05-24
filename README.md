@@ -2,7 +2,7 @@
 
 Looking for a music bot ? This fully open source bot is made for you!
 
-If you need help with this project, to get support faster you can join the help server by just clicking [here](https://discord.gg/zRt7GW99UP).
+
 
 If you don't have any development knowledge, it is recommended to join the Discord support server to get help.
 ### ⚡ Configuration
@@ -22,8 +22,5 @@ Node JS (v17) for environment
 
 Lavalink Node for playing music
 
-Realized with ❤️ by Micium-Development.
 
-Please do not withdraw the license and keep the credits on this project.
 
-Want to have a cool role on our discord? Support us on our patreon : https://patreon.com/micium_development
